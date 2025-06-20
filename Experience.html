@@ -69,7 +69,7 @@
               <li><a class="nav-link scrollto" href="index.html">Home</a></li>
               <li><a class="nav-link scrollto " href="Education.html">Education</a></li>
               <li><a class="nav-link scrollto" href="Publication.html">Publication</a></li>
-              <!-- <li><a class="nav-link scrollto" href="Teaching.html">Teaching</a></li> -->
+              <li><a class="nav-link scrollto" href="Teaching.html">Teaching</a></li>
           <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -124,10 +124,10 @@
                     <b>Resume: </b> <a href="https://drive.google.com/file/d/155mDbQNW4Hn_0W35WmdvFmhq5tNlDSAq"> Md Sadun Haq </a>
                 </div>
                 <div>
-                    PhD. Candidate @ UTSA
+                    Computational Scientist @ UTSW
                 </div>
                 <div style="font-size: 12px;">
-                    <b>Email:</b> MdSadun[.]Haq[@]utsa[.]edu
+                    <b>Email:</b> MdSadun[.]Haq[@]UTSouthwestern[.]edu
                 </div>
 
                 <div style="margin: 20px 0;">
@@ -143,67 +143,54 @@
             </div>
             
             <div class="col-lg-9 pt-4 pt-lg-0" style="text-align: justify;">
+
+                <div class="row">
+                    <div class="col-lg-3 pt-4 pt-lg-0">
+                        <b>Jan 2025 – Present</b>
+                    </div>
+                    <div class="col-lg-9 pt-4 pt-lg-0">
+                        <b>Computational Scientist </b><br>
+                        <a href="https://www.utsouthwestern.edu/"> The University of Texas at Southwestern Medical Center (UTSW)</a> <br>
+                        <a href="https://www.biohpc.work/"> BioHPC Department</a> <br>
+
+                        Worked in the BioHPC department  to support cutting-edge biomedical research by facilitating access to high-performance computing resources. 
+                        Helped medical researchers optimize and scale their computational workloads across HPC and virtualized environments. 
+
+                        <ul>
+                            <li>Contributed to advancing biomedical research by supporting researchers in the efficient use of high-performance computing (HPC) systems and virtual machine infrastructure. </li>
+
+                            <li>Assisted in deploying, managing, and optimizing computational workflows for large-scale genomics, bioinformatics, and imaging data analyses. </li>
+
+                            <li>Collaborated with interdisciplinary research teams to troubleshoot software, streamline data pipelines, and improve reproducibility in scientific computing.
+                            </li>
+
+                            <li>Provided user support through ticket resolution, system monitoring, and documentation of best practices for HPC users.</li>
+
+                            <li>Worked on Slurm job scheduling, VM provisioning, and system performance optimization for diverse scientific applications.</li>
+
+                            <li>Worked on deploying applications on containers such as Podman and Singularity.</li>
+                        </ul>
+
+
+                    </div>
+                </div>
+
                
                 <div class="row">
                     <div class="col-lg-3 pt-4 pt-lg-0">
-                        <b>Jan 2020 – Present</b>
+                        <b>Jan 2021 – Dec 2024</b>
                     </div>
                     <div class="col-lg-9 pt-4 pt-lg-0">
                         <b>Graduate Research Assistant </b><br>
                         <a href="https://www.utsa.edu/"> The University of Texas at San Antonio (UTSA)</a> <br>
 
-                        Worked on the performance evaluation of containerized applications in multiple Edge devices and Cloud servers. Performed security and privacy evaluations for 
-                        containerized applications and developed defenses based on Artificial Intelligence (AI). 
+                        Worked on the performance evaluation of containerized applications in multiple Edge devices. Performed security and privacy evaluations for 
+                        containerized applications and developed deep learning based defenses. 
 
                         <ul>
+                            <li>Evaluated the performance of different container technologies such as Docker, Podman, LXD, for Intel and ARM architecture. </li>
 
-                            <li><b>Present: Anomaly Detection for Kubernetes</b> Currently my team and I am working in developing defenses for Kubernetes cluster with the help of System Call traces. 
-                                I am leading this project with the objective of developing Deep Learning based defenses to prevent various attacks such as Denial of Service
-                            and Privilege Escalation attacks. </li>
-
-                            <li><b>May 2024: Application Detection using Clustering Techniques</b> I employed different workloads in various containers (such as SQL databases and No-SQL databases) in the cloud using Apache JMeter. After recording System calls with the help of
-                            Sysdig, I performed dimensionality reduction with Pandas by removing rows that contain only zeroes. Then I perform normalization
-                        and use clustering techniques such as K-Means and DBScan from the Scikit-Learn library to group similar types of applications.  </li>
-
-
-                        <li><b>Dec 2023: Evaluation of Anomaly Detection methods for Docker Containers</b> I reimplimented popular attacks from Security Bulletins (such as Log4j) in a controlled containerized environment.
-                             The attacks were performed in a timely manner while benign workload was passed to the containers using Apache JMeter to simulate real-world conditions. 
-                             To monitor the environment, I used Sysdig to record system calls from the containers, generating data that included 560 system calls with timestamps, 
-                             formatted to include one-tenth of a second interval. Attacks and workload generation were performed using automated scripts.
-                             Then I developed an Anomaly Detection module using various Machine Learning and Deep Learning algorithms. The analysis revealed 
-                             that Random Forest achieves the highest accuracy among the supervised models, whereas AutoEncoders outperformed other unsupervised
-                             models. Supervised algotihms were implemented using Scikit-learn library and AutoEncoder was implemented with the help of Tensorflow.  </li>
-
-                             <li><b>Jun 2023: Framework for Resolving Inconsistencies in Scanning Tools</b> I developed a framework to reduce inconsistencies and false positives brough forth by using multiple container scanning tools.
-                            I used popular container scanning tools such as Clair, Trivy and Snyk to scan all the official images from DockerHub. The scanning results were
-                            recorded in a JSON format and inserted into a PostgreSQL database. Then I peformed complex SQL operations to identify the source of inconsistencies.
-                            The analysis revealed that multiple assigners provide different severity ratings for the same vulnerability(CVE), leading to inconsistency and confusion.
-                            The framework used the 'Last Modified Date' timestamp to update the severity with the most recent rating.
-                            I also developed a Machine Learning model that could detect the severity of a vulnerability by looking at its features 
-                            as defined by the CVSS 3.0 <a hresf="https://www.first.org/cvss/v3.0/specification-document">Specification Document</a>. 
-                            This model further enhanced the accuracy and reliability of vulnerability assessments. </li>
-
-                            <li><b>Aug 2022: Security Evaluation of Docker Contauners using Scanning Tools</b> I analyzed all official images of DockerHub on both ARM and Intel architectures. Popular scanning tools such as Clair, Trivy
-                            Snyk and JFrog were used to look for vulnerabilities within containers. I created a <b>Web Crawler</b> that surfed DockerHub and downloaded the most updated image. I also performed four container based attack on both Intel and ARM (Raspberry Pi 4)
-                            devices. The results indicated that ARM based devices have fewer vulnerabilities and are more resilient to buffer overflow attacks compared to 
-                            Intel-based devices. 
-                            I repeated the experiment over a span of 18 months, with 6-month interval and found that vulnerabilities of containers, increase with its size.
-                            For example, Python container had the highest number of vulnerabilities, due to its massive size (2.5 GB). </li>
-
-                            <li><b>Jan 2022: Performance Evaluation of different Container Technologies</b> I evaluated the performance of different container technologies such as Docker, Podman and LXD, for Intel and ARM architecture
-                                using popular stress test mechanisms such as ng-stress, iperf and sysbench. The evaluations were performed on the domains of 
-                                CPU, Main Memory (RAM) and Network. The analysis revealed that although Docker remains the most popular among the tools, Podman and LXD also
-                                achieve similar levels of performance across the tested domains.
-                            </li>
-
-                            <li><b>Jan 2021: Web Application</b> I developed a web-application that took weather data from OpenWeather API for three cities (Anchorage, Austin, San Francisco)
-                            and displayed it in a webpage. I used Flask framework with HTML and CSS for the front end and PostgreSQL database for the backend to store and process 
-                            data. The backend scripts were developed using Python. The application scrapes and fetches real-time weather data, stores it in the database, and displays
-                            it in a webpage for easy access and visualization.</li>
-
-                            <!-- <li><b>May 2024</b> Evaluated the performance of different container technologies such as Docker, Podman, LXD, for Intel and ARM architecture. </li>
-
-                            <li><b>Present</b> Evaluated the effectiveness of different scanning tools for containers. </li>
+                            <li>Evaluated the effectiveness of different scanning tools for containers. </li>
 
                             <li>Created a framework to reduce false positives and inconsistencies when using multiple scanning tools.
                             </li>
@@ -213,7 +200,7 @@
                             <li>Performed evaluation of existing Machine Learning and Deep Learning techniques to detect anomalies within containers. Published a 
                                 dataset consisting of 51 state-of-the-art exploits.</li>
 
-                            <li>Plan to create defense mechanisms for containers within a Kubernetes cluster.</li> -->
+                            <li>Plan to create defense mechanisms for containers within a Kubernetes cluster.</li>
                         </ul>
 
 
